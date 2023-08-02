@@ -1,0 +1,522 @@
+body {
+    background-color: #141420;
+    font-family: var(--font-families-Inter);
+}
+
+header .logo {
+    display: flex;
+    padding: 28px 79.05px 28px 16px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .logo .NFT {
+    margin-left: 15px;
+
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.extra-menu .wallet {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+.main-menu,
+.extra-menu {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #BABABA;
+}
+
+header nav li {
+    padding: 24px 0px 24px 48px;
+}
+
+header nav span {
+    color: #FFF;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* hero */
+#hero .feature-categories h1 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62.5px;
+}
+
+#hero .feature-categories p {
+    color: #A1A0AE;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.25px;
+    padding-right: 70px;
+    margin-top: 17px;
+    margin-bottom: 32px;
+}
+
+#hero .feature-categories .button-container {
+    display: flex;
+
+}
+
+#hero .feature-categories .explore {
+    border-radius: 6px;
+    border: 2px solid #5142FC;
+    background: #5142FC;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 14px 30px;
+    margin-right: 25px;
+    cursor: pointer;
+
+}
+
+#hero .feature-categories .upload {
+    background-color: #141420;
+    border-radius: 6px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 14px 30px;
+    cursor: pointer;
+}
+
+#hero .feature-categories .big-image {
+    width: 100%;
+}
+
+
+#hero .row {
+    padding: 150px 0 96px 0;
+}
+
+#hero .info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* top-artists */
+#top-artists .container {
+    padding: 0px 16px;
+}
+
+#top-artists .container-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 51px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+#top-artists .container-title button {
+    cursor: pointer;
+}
+
+#top-artists h2 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+#top-artists .info-artists {
+    border-radius: 12px;
+    background: #2C2C39;
+    border: solid rgb(240, 10, 10) 2px;
+    padding: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#top-artists .info-artists .name-artists {
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* live-auctions */
+#live-auctions {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#live-auctions .container {
+    padding: 0px 16px;
+}
+
+#live-auctions .container-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 51px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid rgb(148, 142, 142);
+}
+
+#live-auctions .container-title button {
+
+    padding: 10px 24px;
+    background: #5142FC;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#live-auctions .container .col-3 {
+    border-radius: 12px;
+    border: 1px solid #4D4C5A;
+    background: #2C2C39;
+    padding: 19px;
+
+}
+
+#live-auctions .container .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#live-auctions .image-container .reaction {
+    display: flex;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    pointer-events: none;
+    color: #141420;
+    border-radius: 6px;
+    border: solid white;
+    background: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+}
+
+#live-auctions .image-container .reaction i {
+    margin-right: 4px;
+}
+
+#live-auctions h2 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+#live-auctions h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0px 13px 0px;
+
+
+}
+
+#live-auctions .post-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#live-auctions .post-desc .image {
+    border-radius: 5px;
+    height: 32px;
+    max-width: 32px;
+    flex: 1 0 0;
+}
+
+#live-auctions .post-desc .job {
+    color: #A1A0AE;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+#live-auctions .post-time {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 10px 70px;
+    margin-top: 20px;
+}
+
+#live-auctions .post-time p {
+    text-align: center;
+}
+
+/* Todatoday-picks */
+
+
+/* KHÔNG DÙNG id=today... đc mà chỉ mỗi section */
+section h2 {
+
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+section {
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+section .container {
+    padding: 0px 16px;
+}
+
+section .container-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 51px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid rgb(148, 142, 142);
+}
+
+section .container-title button {
+    padding: 10px 24px;
+    background: #5142FC;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+section .container .col-3 {
+    border-radius: 12px;
+    border: 1px solid #4D4C5A;
+    background: #2C2C39;
+    padding: 19px;
+    margin-bottom: 40px;
+
+}
+
+section .container .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+section .image-container .reaction {
+    display: flex;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    pointer-events: none;
+    color: #141420;
+    border-radius: 6px;
+    border: solid white;
+    background: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+}
+
+section .image-container .reaction i {
+    margin-right: 4px;
+}
+
+section h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0px 13px 0px;
+}
+
+section .post-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+section .post-desc .image {
+    border-radius: 5px;
+    height: 32px;
+    max-width: 32px;
+    flex: 1;
+}
+
+section .post-desc .job {
+    color: #A1A0AE;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+section .bid-history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    border-top: 2px solid #4D4C5A;
+
+    padding-top: 22px;
+}
+
+section .bid-history a {
+    text-decoration: none;
+}
+
+section .bid-history .bid {
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #5142FC;
+}
+
+section .bid-history .bid a {
+    color: #FFF;
+}
+
+section .bid-history .history {
+    background-color: #2C2C39;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 20px;
+    display: flex;
+}
+
+section .bid-history .history a {
+    color: #FFF;
+}
+
+section .bid-history a i {
+    margin-right: 4px;
+}
+
+
+.learn-more {
+    color: #FFF;
+    padding-top: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.learn-more-link {
+    border-radius: 6px;
+    border: 2px solid #FFF;
+    padding: 14px 29px;
+}
+
+/* Core Features */
+#Core-Features .container {
+    background: #141420;
+}
+
+#Core-Features .container .feature {
+    padding-left: 29px;
+}
+
+#Core-Features .container .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#Core-Features .container h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 90px;
+}
+
+#Core-Features .container p {
+    color: #A1A0AE;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+#Core-Features .container .col-3 {
+    border-radius: 12px;
+    border: 1px solid #4D4C5A;
+    background: #2C2C39;
+    margin-top: 56px;
+    padding-bottom: 25px;
+  
+}
+
+#Core-Features .container .tag {
+    border-radius: 9999px;
+    background: #FFF0E9;
+    width: 72px;
+    padding: 19px;
+}
+
+/* NGAY NÀY H3 lỗi canh lề */
+#Core-Features .container h3 {
+    color: #FFF;
+    padding-right: 39px;
+    font-size: 20px;
+  
+    font-weight: 700;
+
+}
+
+#Core-Features .container p {
+    color: #A1A0AE;
+    font-size: 16px;
+    font-weight: 500;
+    
+
+}
